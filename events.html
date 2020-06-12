@@ -1,0 +1,60 @@
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Event Detail</title>
+<style>
+h3.event {
+	background-color: #ebebeb;
+    font-size: 20px;
+    height: 10%;
+    margin-top: 20px;
+}
+table.grid {
+	background-color: #ebebeb;
+	width: 100%;
+	font-size: 20px;
+	border-collapse: collapse;
+	text-align: center;
+}
+td {
+	border-color:#ffffff;
+	border-style:solid; 
+	border-width:20px;
+}
+</style>
+</head>
+<body>
+
+	<form action="/registration/4" method="post"><input type="hidden" name="_csrf" value="6b0a4569-c49b-4330-8729-7e397730ff54"/>
+			
+			<h3 class="event">Event Registration Detail: Ideal Parenting</h3>
+			<table border="10" cellpadding="10" class="grid">
+				
+				<tr>
+					<td>Event name - event</td>
+					<td rowspan="3">Description - description</textarea></td>
+					<td rowspan="5"> <img src="http://geready:8080/default.jpg" /> </td>
+				</tr>
+				<tr>
+					<td>Category - Social</td>
+				</tr>
+				<tr>
+					<td>Location - atlanta</td>
+				</tr>
+				<tr>
+					<td>2020-06-15 04:55</td>
+					<td>adultTicketPrice - 100</td>
+					
+				</tr>
+				<tr>
+					<td>2020-06-20 16:55</td>
+					<td>childTicketPrice - 50</td>
+				</tr>
+				<tr>
+					<td colspan="3"><button type="submit" name="registration">Registration</button></td>
+				</tr>
+			</table>
+	</form>
+</body>
+</html>
